@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.esquerda,.form{
+    padding: 10px 20px;
+    float: left;
+    height: 300px;
+    width: 250px;
+    margin: 30px 50px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    align-items: center;
+}
+
+input, label{
+    margin: 7px auto;
+}
+
+input[type="submit"]{
+    background-color: #424141;
+    color: azure;
+}
+
+.direita{
+    float: left;
+    width: 500px;
+    margin: 30px 50px;
+}
+
+table{
+    background-color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    background-color: #a29f9f;
+    color: azure;
+}
+
+body{
+    background: linear-gradient(90deg, #424141, black);
+}
+
+
